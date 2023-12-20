@@ -1,0 +1,63 @@
+.colour{
+    height: 200px;
+    width: 200px;
+    /* background-color: blue; */
+    /* background: linear-gradient(red,orange,yellow); */
+    margin: auto;
+    /* background: linear-gradient(to right,yellow,green,blue,pink,orange);  */
+    border-radius: 50%;
+    background: conic-gradient(red,green,black,yellow,gray,blue,pink,tomato);
+}
+.colour1{
+    height: 200px;
+    width: 200px;
+    /* background-color: blue; */
+    /* background: linear-gradient(red,orange,yellow); */
+    margin: auto;
+    /* background: linear-gradient(to right,yellow,green,blue,pink,orange);  */
+    border-radius: 50%;
+    background: radial-gradient(orange 10px,pink 20px,red 40px,green 30px,yellow 65px,blue 10px,tomato 90px);
+}
+.colour2{
+    height: 200px;
+    width: 200px;
+    /* background-color: blue; */
+    /* background: linear-gradient(red,orange,yellow); */
+    margin: auto;
+    /* background: linear-gradient(to right,yellow,green,blue,pink,orange);  */
+    border-radius: 50%;
+    /* background: conic-gradient(red,green,black,yellow,gray,blue,pink,tomato); */
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+  border-radius: 50%;
+}
+.colour3{
+    height: 200px;
+    width: 200px;
+    /* background-color: blue; */
+    /* background: linear-gradient(red,orange,yellow); */
+    margin: auto;
+    /* background: linear-gradient(to right,yellow,green,blue,pink,orange);  */
+    border-radius: 50%;
+    background: conic-gradient(red,green,black,yellow,gray,blue,pink,tomato);
+}
+.colour4{
+    height: 200px;
+    width: 200px;
+    /* background-color: blue; */
+    /* background: linear-gradient(red,orange,yellow); */
+    margin: auto;
+    /* background: linear-gradient(to right,yellow,green,blue,pink,orange);  */
+    border-radius: 50%;
+    background: repeating-linear-gradient(red,green,blue,gray,yellow,pink,orange);
+}
+.colour5{
+    height: 200px;
+    width: 200px;
+    /* background-color: greenyellow; */
+    background:linear-gradient(red,blue,pink,orange) ;
+    margin: auto;
+    border-radius: 50%;
+    background: repeating-linear-gradient(red 50deg,blue 70deg,tomato 90deg,orange 60deg);
+    
+
+}

@@ -1,0 +1,87 @@
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.siva p{
+    width: 30%;
+    float:left;
+    padding: 20px;
+}
+.siva1 p {
+    background-color: rgb(194, 159, 159);
+    padding: 20px;
+    justify-content: center;
+    border: 20px solid red;
+}
+.siva h1{
+    text-align: center;
+}
+.siva1 {
+    background-color: yellow;
+    padding: 20px;
+    /* background: local */
+    border: 20px solid red;
+    padding:20px ;
+
+}
+.colour{
+    height: 200px;
+    width: 200px;
+    /* background-color: blue; */
+    /* background: linear-gradient(red,orange,yellow); */
+    margin: auto;
+    display: inline-block;
+    /* background: linear-gradient(to right,yellow,green,blue,pink,orange);  */
+    border-radius: 50%;
+    background: conic-gradient(red,green,black,yellow,gray,blue,pink,tomato);
+}
+.colour1{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    /* background-color: blue; */
+    /* background: linear-gradient(red,orange,yellow); */
+    margin: auto;
+    /* background: linear-gradient(to right,yellow,green,blue,pink,orange);  */
+    border-radius: 50%;
+    background: radial-gradient(orange 10px,pink 20px,red 40px,green 30px,yellow 65px,blue 10px,tomato 90px);
+}
+.colour2{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: repeating-conic-gradient(rgb(0, 255, 234) 0deg 10deg, yellow 10deg 20deg, rgb(186, 186, 223) 20deg 30deg);
+    border-radius: 50%;
+}
+.colour3{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    /* background-color: blue; */
+    /* background: linear-gradient(red,orange,yellow); */
+    margin: auto;
+    /* background: linear-gradient(to right,yellow,green,blue,pink,orange);  */
+    border-radius: 50%;
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, rgb(8, 175, 161) 270deg);
+}
+.colour4{
+    height: 200px;
+    width: 200px;
+    /* background-color: blue; */
+    /* background: linear-gradient(red,orange,yellow); */
+    /* background: linear-gradient(to right,yellow,green,blue,pink,orange);  */
+    border-radius: 50%;
+    display: inline-block;
+    background-image: repeating-conic-gradient(red 10%, yellow 20%);
+}
+.colour5{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    /* background-color: greenyellow; */
+    background:linear-gradient(red,blue,pink,orange) ;
+    border-radius: 50%;
+    background: repeating-linear-gradient(red 50deg,blue 70deg,tomato 90deg,orange 60deg);
+}

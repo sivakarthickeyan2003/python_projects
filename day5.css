@@ -1,0 +1,31 @@
+
+.siva{
+    margin: 20rem 20rem;
+    }
+.sk{
+    position: relative;
+    height: 15rem;
+    width: 15rem;
+    background-color: red;
+    border-radius: 10rem;
+
+}
+.sri{
+    position: relative;
+    left: 10rem;
+    height: 15rem;
+    width: 15rem;
+    background-color: red;
+    border-radius: 10rem;
+}
+.don{
+    position: relative;
+    top: 5rem;
+    right:5rem ;
+    height: 15rem;
+    width: 15rem;
+    background-color: red;
+    border-radius: 1rem;
+    border-bottom-right-radius: 100%;
+    transform: rotate(225deg);
+}

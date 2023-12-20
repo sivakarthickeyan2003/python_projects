@@ -1,0 +1,331 @@
+/*body{
+    background-image: url(imgg1.jpg);
+    position:fixed;
+    height: 20px;
+    width: 20px;
+    transform: rotate(360deg);
+    padding: 50px;
+}*/
+body{
+    padding-left: 30px;
+    background-color: rgb(255, 251, 0);
+    height: 600px;
+    width: 700px;
+
+}
+#position1{
+    border-radius: 100px;
+    position: relative; 
+    height: 110px;
+    width: 110px;
+    background-color:red;
+    left: 50px;
+    bottom: 120px;
+} 
+#position2{
+    position: absolute;
+   border-radius: 100px;
+    height: 110px;
+    width: 110px;
+    background-color:red;
+    left: 150px;
+    bottom: 140px;
+
+} 
+#position3{
+    border-bottom-right-radius: 100%;
+    position: absolute;
+     height: 120px;
+     width: 120px;
+     background-color: red;
+     transform: rotate(225deg);
+     left: 95px;
+     bottom: 90px;
+}
+#love{
+    position: relative;
+    left: 550px;
+    top:300px;
+}
+
+.men1{
+    height: 150px;
+    position:relative;
+    width: 150px;
+    left: 350px;
+    bottom: 280px;
+    background-color: black;
+    border-radius: 50%;
+}
+.men2{
+    margin: 0;
+    border: 0;
+    height: 50px;
+    position: absolute;
+    width: 200px;
+    left: 360px;
+    bottom: 400px;
+    background-color: black;
+}
+
+.men3{
+    border-radius: 10% / 50%;
+    height: 150px;
+    position:relative;
+    width: 150px;
+    left: 350px;
+    bottom: 280px;
+    background-color: black;
+}
+.men4{
+    height: 50px;
+    position:relative;
+    width: 200px;
+    left: 400px;
+    bottom: 370px;
+    background-color: black;
+    transform: rotate(200deg);
+    border-radius: 10% / 50%;
+}
+.men5{
+    height: 50px;
+    position:relative;
+    width: 200px;
+    left: 250px;
+    bottom: 430px;
+    background-color: black;
+    transform: rotate(160deg);
+    border-radius: 10% / 50%;
+}
+.men6{
+    height: 50px;
+    position:relative;
+    width: 200px;
+    left: 280px;
+    bottom: 330px;
+    background-color: black;
+    transform: rotate(110deg);
+    border-radius: 10% / 50%;
+}
+.men7{
+    height: 50px;
+    position:relative;
+    width: 200px;
+    left: 390px;
+    bottom: 380px;
+    background-color: black;
+    transform: rotate(240deg);
+    border-radius: 10% / 50%;
+}
+.women1{
+    height: 150px;
+    position:relative;
+    width: 150px;
+    left: 350px;
+    bottom: 280px;
+    background-color: black;
+    border-radius: 50%;
+}
+.women2{
+    margin: 0;
+    border: 0;
+    height: 50px;
+    position: absolute;
+    width: 210px;
+    left: 320px;
+    bottom: 550px;
+    background-color: black;
+    transform: rotate(90deg);
+}
+.women3{
+    border-radius: 10% / 50%;
+    height: 150px;
+    position:relative;
+    width: 150px;
+    left: 350px;
+    bottom: 280px;
+    background-color: black;
+}
+.women4{
+    height: 50px;
+    position:relative;
+    width: 200px;
+    left: 400px;
+    bottom: 370px;
+    background-color: black;
+    transform: rotate(200deg);
+    border-radius: 10% / 50%;
+}
+.women5{
+    height: 50px;
+    position:relative;
+    width: 200px;
+    left: 250px;
+    bottom: 430px;
+    background-color: black;
+    transform: rotate(160deg);
+    border-radius: 10% / 50%;
+}
+.women6{
+    height: 50px;
+    position:relative;
+    width: 200px;
+    left: 280px;
+    bottom: 330px;
+    background-color: black;
+    transform: rotate(110deg);
+    border-radius: 10% / 50%;
+}
+.women7{
+    height: 50px;
+    position:relative;
+    width: 200px;
+    left: 390px;
+    bottom: 380px;
+    background-color: black;
+    transform: rotate(240deg);
+    border-radius: 10% / 50%;
+}
+#allwomen{
+    position: absolute;
+    border:10px;
+    left: 600px;
+    top:300px;
+}
+.car1{
+    position: relative;
+    border-top-left-radius: 30px;
+    transform: rotate(90deg);
+    height: 200px;
+    width: 100px;
+    left: 300px;
+    background-color: blueviolet;
+}
+.car2{
+    position: relative;
+    height: 200px;
+    width: 100px;
+    border-top-left-radius: 30px;
+    transform: rotate(90deg);
+    bottom: 200px;
+    left:80px ;
+    background-color: blueviolet;
+}
+.car3{
+    position: relative;
+    height: 200px;
+    width: 100px;
+    border-top-left-radius: 30px;
+    transform: rotate(90deg);
+    bottom: 400px;
+    left:520px ;
+    background-color: blueviolet;
+}
+.car4{
+    height: 20px;
+    position: relative;
+    width: 50px;
+    left: 435px;
+    bottom: 500px;
+    background-color: black;
+    transform: rotate(180deg);
+}
+.car5{
+    height: 20px;
+    position: relative;
+    width: 50px;
+    left: 215px;
+    bottom: 520px;
+    background-color: black;
+    transform: rotate(180deg);
+}
+car5{
+    height: 20px;
+    position: relative;
+    width: 50px;
+    left: 215px;
+    bottom: 520px;
+    background-color: black;
+    transform: rotate(180deg);
+}
+.car6{
+    height: 30px;
+    position: relative;
+    width: 150px;
+    left: 50px;
+    bottom: 550px;
+    background-color: rgb(252, 252, 252);
+    transform: rotate(180deg);
+}
+.car7{
+    height: 30px;
+    position: relative;
+    width: 150px;
+    left: 275px;
+    bottom: 580px;
+    background-color: rgb(252, 252, 252);
+    transform: rotate(180deg);
+}
+.car8{
+    height: 30px;
+    position: relative;
+    width: 150px;
+    left: 500px;
+    bottom: 610px;
+    background-color: rgb(252, 252, 252);
+    transform: rotate(180deg);
+}
+.tire1{
+    height: 40px;
+    position:relative;
+    width: 40px;
+    left: 485px;
+    bottom: 590px;
+    background-color: black;
+    border-radius: 50%;
+}
+.tire2{
+    height: 40px;
+    position:relative;
+    width: 40px;
+    left: 620px;
+    bottom:630px ;
+    background-color: black;
+    border-radius: 50%;
+}
+.tire3{
+    height: 40px;
+    position:relative;
+    width: 40px;
+    left: 180px;
+    bottom:670px ;
+    background-color: black;
+    border-radius: 50%;
+}
+.tire4{
+    height: 40px;
+    position:relative;
+    width: 40px;
+    left: 50px;
+    bottom:710px ;
+    background-color: black;
+    border-radius: 50%;
+}
+.tire5{
+    height: 40px;
+    position:relative;
+    width: 40px;
+    left: 270px;
+    bottom:750px ;
+    background-color: black;
+    border-radius: 50%;
+}
+.tire6{
+    height: 40px;
+    position:relative;
+    width: 40px;
+    left: 400px;
+    bottom:790px ;
+    background-color: black;
+    border-radius: 50%;
+}

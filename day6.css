@@ -1,0 +1,24 @@
+body{
+    background-color: yellow;
+}
+.siva{
+    margin-top:20rem ;
+    justify-content: space-around;
+    text-align: center;
+}
+.ram1{
+    display: inline-block;
+    justify-content: flex-end;
+    padding: 20px;
+    justify-content: space-around;
+    height: 40px;
+    width: 100px;
+    background-color: blue;
+}
+.box1{
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+    padding: 20px;
+    background-color: red;
+}

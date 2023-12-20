@@ -1,0 +1,42 @@
+.wrapper{
+    margin: 20px;
+}
+.wrapper #siva{
+    text-emphasis: Double-circle pink;
+    text-emphasis-position: under;
+    text-align: center;
+    background: blue;
+    color: aliceblue;
+}
+ .wrapper h2{
+    text-emphasis: triangle pink;
+    text-emphasis-position: under;
+    text-align: center;
+    background: rgb(0, 238, 255);
+    columns: white;
+} 
+.Course{
+    background: gold;
+}
+.Course .Engi {
+    background: red;
+    color: white;
+    padding: 10px;
+}
+.Course .Engi1{
+    background: rgb(0, 255, 170);
+    color: white;
+}
+.Course .Engi2{
+    background: rgb(247, 0, 255);
+    color: white;
+}
+.Course .Engi3{
+    background: gray;
+    color: white;
+}.Course .Engi4 {
+    padding: 10px;
+    background: red;
+    color: white;
+}
+
